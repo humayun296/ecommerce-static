@@ -1,0 +1,9 @@
+VIEWPORT FOR HEADER
+
+1920
+1366
+1199
+992
+576 --> here i have addded padding in container
+
+440 --> FOR HERO SECTION
