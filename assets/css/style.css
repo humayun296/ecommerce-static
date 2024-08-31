@@ -440,3 +440,249 @@ display: none;
 
 /* END HEADER */
 
+
+/* BEGIN FOOTER */
+
+.footer-bottom {
+  background-color: black;
+}
+
+.footer-bottom footer .container {
+  padding: 80px 0px 40px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom .left {
+  width: 33.33%;
+}
+
+.footer-bottom .left h2 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: montserrat;
+  padding-bottom: 20px;
+}
+
+.footer-bottom .left ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer-bottom .left ul a {
+  color: #998f8f;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 14px;
+}
+
+.footer-bottom .center {
+  width: 33.33%;
+}
+
+.footer-bottom .center h2 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: montserrat;
+  padding-bottom: 20px;
+}
+
+.footer-bottom .center ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer-bottom .center ul a {
+  color: #998f8f;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 14px;
+}
+
+.footer-bottom .right {
+  width: 33.33%;
+}
+
+.footer-bottom .right p {
+  color: #998f8f;
+  font-size: 14px;
+  font-family: poppins;
+}
+.footer-bottom .right h2 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: montserrat;
+  padding-bottom: 20px;
+}
+
+.footer-bottom .right ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer-bottom .right ul a {
+  color: #998f8f;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 14px;
+}
+
+.footer-bottom .right img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer-bottom .social-icons {
+  padding-top: 20px;
+}
+
+.footer-bottom .bottom .container {
+  padding: 20px 0px 20px 0px;
+}
+
+.footer-bottom .bottom {
+  border-top: 1px solid #ffffff26;
+}
+
+.footer-bottom .bottom .left h3 {
+  color: white;
+  font-family: poppins;
+  font-size: 16px;
+}
+
+.footer-bottom .bottom .right {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+
+.footer-bottom .bottom .right a {
+  color: white;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+/* FOR 1199 */
+
+@media (max-width: 1199px) {
+  .footer-bottom .bottom .left h3 {
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+  }
+}
+
+/* FOR 992 */
+
+@media (max-width: 992px) {
+  .footer-bottom .container {
+    padding: 20px;
+  }
+
+  .footer-bottom .bottom .left {
+    width: 50%;
+  }
+
+  .footer-bottom .bottom .right {
+    width: 50%;
+  }
+}
+
+/* FOR 767 */
+
+@media (max-width: 767px) {
+  .footer-bottom .bottom .left h3 {
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .footer-bottom .bottom .right a {
+    font-size: 12px;
+  }
+}
+
+/* FOR 576 */
+
+@media (max-width: 576px) {
+  .footer-bottom .bottom .left {
+    width: 60%;
+  }
+
+  .footer-bottom .bottom .right {
+    width: 40%;
+    display: flex;
+    gap: 0px;
+  }
+
+  .footer-bottom .bottom .right a {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 440px) {
+  .footer-bottom footer .container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 40px 20px;
+    gap: 20px;
+  }
+
+  .footer-bottom .left {
+    width: 100%;
+  }
+
+  .footer-bottom .center {
+    width: 100%;
+  }
+
+  .footer-bottom .right {
+    width: 100%;
+  }
+
+  .footer-bottom .bottom .container {
+    border-top: 1px solid rgba(255, 255, 255, 0.336);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-bottom .bottom .container .left {
+    width: 100%;
+  }
+
+  .footer-bottom .bottom .container .left h3 {
+    font-size: 14px;
+  }
+
+  .footer-bottom .bottom .container .right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .footer-bottom .bottom .right a {
+    padding: 0px;
+    font-size: 12px;
+  }
+}
+
+
+/* END FOOTER */
