@@ -1087,6 +1087,205 @@ display: none;
 
 
 
+/* BEGIN THIRD SECTION */
+
+.third-sec {
+  background-color: #ebc6ca87;
+}
+
+.third-sec .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 40px 0px;
+  gap: 40px;
+}
+
+.third-sec .col1 {
+  width: 33.33%;
+  height: 272px;
+  padding: 40px;
+  background: url("/assets/images/jpg/flowers\ day.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: all 2s ease;
+}
+
+.third-sec .col1:hover {
+  scale: 1.1;
+}
+
+.third-sec .col1 h3 {
+  font-size: 40px;
+  font-family: poppins;
+}
+
+.third-sec .col1 p {
+  font-size: 20px;
+  font-family: monteserrat;
+}
+
+.third-sec .col1 span {
+  font-size: 20px;
+  font-family: monteserrat;
+  font-weight: 600;
+  color: #e15471;
+}
+
+.third-sec .col2 {
+  width: 33.33%;
+  height: 272px;
+  padding: 40px;
+  background: url("/assets/images/jpg/flowers\ day\ 1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 2s ease;
+}
+
+.third-sec .col2:hover {
+  scale: 1.1;
+}
+
+.third-sec .col2 h4 {
+  font-size: 20px;
+  font-family: poppins;
+}
+
+.third-sec .col2 p {
+  font-size: 40px;
+  font-family: monteserrat;
+  font-weight: 600;
+}
+
+.third-sec .col3 {
+  width: 33.33%;
+  height: 272px;
+  padding: 40px;
+  background: url("/assets/images/jpg/flowers\ day.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: all 2s ease;
+}
+
+.third-sec .col3:hover {
+  scale: 1.1;
+}
+
+.third-sec .col3 h3 {
+  font-size: 40px;
+  font-family: poppins;
+}
+
+.third-sec .col3 p {
+  font-size: 20px;
+  font-family: monteserrat;
+}
+
+.third-sec .col3 span {
+  font-size: 20px;
+  font-family: monteserrat;
+  font-weight: 600;
+  color: #e15471;
+}
+
+/* FOR 1366 */
+
+@media (max-width: 1366px) {
+  .third-sec .col1 h3 {
+    font-size: 28px;
+  }
+
+  .third-sec .col2 h4 {
+    font-size: 20px;
+  }
+
+  .third-sec .col2 p {
+    font-size: 26px;
+  }
+
+  .third-sec .col3 h3 {
+    font-size: 28px;
+  }
+}
+
+/* FOR 1199 */
+
+@media (max-width: 1199px) {
+  .third-sec .col1 h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .third-sec .col2 h4 {
+    font-size: 20px;
+    font-family: 500;
+  }
+
+  .third-sec .col2 p {
+    font-size: 26px;
+  }
+
+  .third-sec .col3 h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+/* FOR 767 */
+
+@media (max-width: 1199px) {
+  .third-sec .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .third-sec .col1 {
+    width: 100%;
+  }
+
+  .third-sec .col1 h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .third-sec .col2 {
+    width: 100%;
+  }
+
+  .third-sec .col3 {
+    width: 100%;
+  }
+
+  .third-sec .col3 h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+/* FOR 575 */
+
+@media (max-width: 575px) {
+  .third-sec .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* END THIRD SECTION */
+
+
+
+
 
 /* BEGIN FOOTER */
 
